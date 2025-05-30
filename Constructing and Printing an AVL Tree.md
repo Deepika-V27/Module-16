@@ -3,7 +3,7 @@
 ## AIM:
 To write a Python program to construct an **AVL tree** and print the nodes of it using the appropriate packages and built-in function.
 
----
+
 
 ## ALGORITHM:
 
@@ -21,15 +21,24 @@ To write a Python program to construct an **AVL tree** and print the nodes of it
 
 **Step 6**: End the program.
 
----
 
 ## PYTHON PROGRAM
 ```
-ENTER YOUR CODE HERE
+from TreeAVL.AVL import AVL
+
+def getDictTree(self):
+ return self.dict_tree
+
+def Construct_AVL(L):
+    tree = AVL(L)
+    print(getDictTree(tree))
+    
+L = [10,20,30,40,50,25]
 ```
 
 ## OUTPUT
-```
-```
+![image](https://github.com/user-attachments/assets/94c2a9ea-c0b4-40a6-b73f-1178461d56e4)
+
 
 ## RESULT
+Thus the program has implemented successfully.
